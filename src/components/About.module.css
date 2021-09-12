@@ -1,0 +1,34 @@
+.aboutImageContainer {
+  background: linear-gradient(#ff9800, #171717);
+}
+
+.aboutImage {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+.hello {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ff9800;
+  color: #171717;
+  width: fit-content;
+  font-weight: bold;
+  position: relative;
+}
+
+.hello::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ff9800 transparent transparent;
+}
+
+.paragraph {
+  margin-top: 16px;
+  line-height: 1.7;
+}

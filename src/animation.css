@@ -1,0 +1,91 @@
+.animate-header {
+  animation: header-animation 2s linear forwards;
+}
+
+.animate-hireMe {
+  animation: hireme-animation 2s linear 1s forwards;
+}
+
+.animate-contactMe1 {
+  animation: animate-contactMe1 2s linear .5s forwards;
+}
+
+.animate-contactMe2 {
+  animation: animate-contactMe2 2s linear .5s forwards;
+}
+
+.animate-setup {
+  animation: animate-setup 1s linear alternate infinite;
+}
+
+@keyframes animate-contactMe1 {
+  0% {
+    transform: translateX(40vw);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-contactMe2 {
+  0% {
+    transform: translateX(-40vw);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-setup {
+  0% {
+    transform: skew(1deg);
+  }
+
+  100% {
+    transform: skew(-1deg);
+  }
+}
+
+@keyframes hireme-animation {
+  0% {
+    transform: scale(0) rotate(360deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes header-animation {
+  0% {
+    opacity: .1;
+    transform: translateY(10px);
+  }
+
+  20% {
+    opacity: .2;
+    transform: translateY(0);
+  }
+
+  40% {
+    opacity: .4;
+    transform: translateY(10px);
+  }
+
+  60% {
+    opacity: .6;
+    transform: translateY(0);
+  }
+
+  80% {
+    opacity: .8;
+    transform: translateY(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
