@@ -1,5 +1,5 @@
-import { FaGithub, FaReact } from "react-icons/fa";
-
+import { FaReact } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
 const Footer = () => {
   return (
     <footer
@@ -16,13 +16,13 @@ const Footer = () => {
         >
           <FaReact color="#42d0fd" />
         </a>
-        . Hosted in{" "}
+        . Hosted on{" "}
         <a
           href="https://pages.github.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
+          <SiNetlify />
         </a>
         , &copy; {new Date().getFullYear()}{" "}
       </p>
