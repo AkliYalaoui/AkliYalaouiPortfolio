@@ -18,7 +18,7 @@ const Footer = () => {
         </a>
         . Hosted on{" "}
         <a
-          href="https://pages.github.com/"
+          href="https://www.netlify.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
