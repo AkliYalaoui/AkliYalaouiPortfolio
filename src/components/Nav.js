@@ -15,14 +15,16 @@ const Nav = ({ mainColor }) => {
   }, []);
 
   const bg = {
-    backgroundImage: "url('./assets/bg.jpg')",
-    backgroundAttachment: "fixed",
-    backgroundPosition: "left",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    // backgroundImage: "url('./assets/bg.jpg')",
+    // backgroundAttachment: "fixed",
+    // backgroundPosition: "left",
+    // backgroundSize: "cover",
+    // backgroundRepeat: "no-repeat",
+    background:
+      "linear-gradient(to bottom, rgba(0,212,255,1) 20%, rgba(0,212,255,.65))",
   };
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow" style={bg}>
+    <nav className="fixed top-0 left-0 w-full z-50 shadow-md" style={bg}>
       <Overlay />
       <div className="max-w-5xl m-auto p-4 flex justify-between relative z-50">
         <h2 className="text-xl font-semibold" style={{ color: mainColor }}>

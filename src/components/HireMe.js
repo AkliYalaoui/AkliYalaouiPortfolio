@@ -3,7 +3,7 @@ import { MdWork } from "react-icons/md";
 
 const HireMe = () => {
   return (
-    <h3 className={`animate-hireMe ${styles.hireMe}`}>
+    <h3 className={`${styles.hireMe}`}>
       <MdWork />
       <p className="ml-2">Available for freelancing</p>
     </h3>

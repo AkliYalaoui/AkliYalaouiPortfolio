@@ -13,19 +13,22 @@ const ContactMe = () => {
       <div id="contactMe" className="p-10"></div>
       <section className="text-white py-4 px-10">
         <Title title="contactme" />
-        <div className="my-4 flex flex-wrap items-start justify-center">
-          <figure className="max-w-xs m-2 text-center">
+        <div className="my-4">
+          <figure className="max-w-xs text-center mx-auto my-4">
             <img
               loading="lazy"
-              src="./assets/setup.jpg"
+              src="./assets/me.jpg"
               alt="akli yalaoui"
               className="object-contain h-full w-full animate-setup"
             />
             <figcaption className="p-2 border-b border-gray-600">
-              My desktop setup
+              Summer Internship at <strong>ADSIL</strong> - Algiers
             </figcaption>
           </figure>
-          <ul className="space-y-2 m-2">
+          <ul
+            className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 p-2 text-sm  shadow-md border border-gray-600"
+            style={{ backgroundColor: "rgb(14, 14, 14)" }}
+          >
             <li>
               <a
                 href="mailto:ia_yalaoui.esi.dz"
@@ -35,6 +38,17 @@ const ContactMe = () => {
               >
                 <FaEnvelope />
                 <span>ia_yalaoui@esi.dz</span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center space-x-2"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://codepen.io/AkliYalaoui/"
+              >
+                <FaCodepen />
+                <span>Akli</span>
               </a>
             </li>
             <li>
@@ -68,17 +82,6 @@ const ContactMe = () => {
               >
                 <FaTwitter />
                 <span>KoukiYalaoui</span>
-              </a>
-            </li>
-            <li>
-              <a
-                className="flex items-center space-x-2"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://codepen.io/AkliYalaoui/"
-              >
-                <FaCodepen />
-                <span>Akli</span>
               </a>
             </li>
             <li>

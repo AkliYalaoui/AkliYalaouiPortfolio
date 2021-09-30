@@ -12,10 +12,12 @@ const App = () => {
   return (
     <>
       <Header mainColor={mainColor} />
-      <About />
-      <Skills />
-      <Projects mainColor={mainColor} />
-      <ContactMe />
+      <div className="max-w-7xl m-auto">
+        <About />
+        <Skills />
+        <Projects mainColor={mainColor} />
+        <ContactMe />
+      </div>
       <Footer />
     </>
   );

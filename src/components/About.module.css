@@ -11,11 +11,14 @@
 .hello {
   padding: 5px;
   border-radius: 3px;
+  font-size: 30px;
   background-color: #ff9800;
   color: #171717;
   width: fit-content;
   font-weight: bold;
   position: relative;
+  width: fit-content;
+  margin: 0 auto 40px;
 }
 
 .hello::after {

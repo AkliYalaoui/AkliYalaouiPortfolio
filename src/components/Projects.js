@@ -8,7 +8,7 @@ const Projects = ({ mainColor }) => {
       <div id="Projects" className="p-10"></div>
       <div className="py-4 px-10 text-white">
         <Title title="projects" />
-        <section className="p-3 space-y-12">
+        <section className="p-3">
           {projects.map((project, id) => (
             <ProjectItem
               key={id}

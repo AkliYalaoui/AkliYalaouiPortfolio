@@ -1,4 +1,4 @@
-import React from "react";
+import styles from "./PojectItem.module.css";
 
 const ProjectItem = ({
   overview,
@@ -11,20 +11,12 @@ const ProjectItem = ({
   direction,
 }) => {
   return (
-    <article
-      className={`flex ${
-        direction === "bottom" ? "flex-wrap-reverse flex-row-reverse" : ""
-      } flex-wrap items-center justify-center max-w-4xl m-auto`}
-    >
-      <div
-        className={`max-w-md relative transform ${
-          direction === "bottom" ? "-translate-y-8" : "translate-y-8"
-        }`}
-      >
+    <article className="max-w-4xl mx-auto mb-14">
+      <div className="relative">
         <img
           loading="lazy"
-          className="w-full h-full object-cover"
           src={image}
+          className={`w-full h-full object-cover ${styles.image}`}
           alt="app preview"
         />
         <div className="absolute -top-7 right-0 space-x-2">
@@ -48,7 +40,7 @@ const ProjectItem = ({
           </a>
         </div>
       </div>
-      <div className="p-2 w-80" style={{ backgroundColor: "rgb(10, 10, 10)" }}>
+      <div className="p-2" style={{ backgroundColor: "rgb(10, 10, 10)" }}>
         <h3
           className={`font-semibold text-center mb-4 ${
             direction === "bottom" ? "" : "mt-8"

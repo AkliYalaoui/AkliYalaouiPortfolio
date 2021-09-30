@@ -27,7 +27,7 @@ const Header = ({ mainColor, lang }) => {
             href="mailto:ia_yalaoui.esi.dz"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center items-center space-x-2 animate-contactMe1"
+            className="flex justify-center items-center space-x-2"
           >
             <FaEnvelope />
             <span>ia_yalaoui@esi.dz</span>
@@ -36,7 +36,7 @@ const Header = ({ mainColor, lang }) => {
             href="tel:0673347704"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center items-center space-x-2 animate-contactMe2"
+            className="flex justify-center items-center space-x-2"
           >
             <FaPhone />
             <span>0673347704</span>
