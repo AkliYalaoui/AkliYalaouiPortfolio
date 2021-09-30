@@ -15,13 +15,7 @@ const Nav = ({ mainColor }) => {
   }, []);
 
   const bg = {
-    // backgroundImage: "url('./assets/bg.jpg')",
-    // backgroundAttachment: "fixed",
-    // backgroundPosition: "left",
-    // backgroundSize: "cover",
-    // backgroundRepeat: "no-repeat",
-    background:
-      "linear-gradient(to bottom, rgba(0,212,255,1) 20%, rgba(0,212,255,.65))",
+    backgroundColor: "transparent",
   };
   return (
     <nav className="fixed top-0 left-0 w-full z-50 shadow-md" style={bg}>

@@ -26,7 +26,7 @@ const ContactMe = () => {
             </figcaption>
           </figure>
           <ul
-            className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 p-2 text-sm  shadow-md border border-gray-600"
+            className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:justify-items-center lg:grid-cols-6 p-2 text-sm  shadow-md border border-gray-600"
             style={{ backgroundColor: "rgb(14, 14, 14)" }}
           >
             <li>
