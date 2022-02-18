@@ -1,5 +1,5 @@
 .aboutImageContainer {
-  background: linear-gradient(#ff9800, #171717);
+  background: linear-gradient(#e36414, #171717);
 }
 
 .aboutImage {
@@ -12,7 +12,7 @@
   padding: 5px;
   border-radius: 3px;
   font-size: 30px;
-  background-color: #ff9800;
+  background-color: #3ab795;
   color: #171717;
   width: fit-content;
   font-weight: bold;
@@ -28,7 +28,7 @@
   right: 50%;
   border-width: 10px;
   border-style: solid;
-  border-color: #ff9800 transparent transparent;
+  border-color: #3ab795 transparent transparent;
 }
 
 .paragraph {

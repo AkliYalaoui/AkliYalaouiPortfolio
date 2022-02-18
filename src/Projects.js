@@ -1,5 +1,17 @@
 export const projects = [
   {
+    image: "./assets/project4/main.png",
+    github: "https://github.com/AkliYalaoui/tic-tac-to-ai",
+    live: "https://tic-tac-toe-ia.netlify.app/",
+    title: "Tic Tac Toe Ai",
+    overview:
+      "This is the tic tac toe game, with difficulty levels, the Ai supposes that the human is playing optimally and in worse cases it will try to get a tie. The hard level corresponds to depth 4 while performing the Depth first search in the minmax algorithm",
+    tech: [
+      "React Js",
+      "Minmax"
+    ],
+  },
+  {
     image: "./assets/project1/main2.png",
     github: "https://github.com/AkliYalaoui/contacter-ui",
     live: "https://contacter-app.netlify.app",

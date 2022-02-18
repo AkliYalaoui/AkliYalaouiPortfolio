@@ -25,7 +25,7 @@ const ProjectItem = ({
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ backgroundColor: "#42d0fd" }}
+            style={{ backgroundColor: "#e36414" }}
           >
             Github
           </a>

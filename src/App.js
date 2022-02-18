@@ -7,7 +7,7 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const [mainColor] = useState("#ff9800");
+  const [mainColor] = useState("#3ab795");
 
   return (
     <>
