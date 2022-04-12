@@ -19,7 +19,7 @@ const About = () => {
             <br/>Currently, I am seeking for new opportunities, I am open to work as a mern stack developer or as a data science intern.
           </p>
         </section>
-        <section className="flex flex-wrap justify-center items-center my-4 pl-3">
+        <section className="flex flex-wrap justify-center items-center my-4 pl-2">
           <div className={`w-56 h-40 ${styles.aboutImageContainer}`}>
             <img
               loading="lazy"
