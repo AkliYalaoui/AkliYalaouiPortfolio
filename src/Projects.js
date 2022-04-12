@@ -1,5 +1,21 @@
 export const projects = [
   {
+    image: "./assets/project6/main.png",
+    github: "https://github.com/AkliYalaoui/code-with-me-ui",
+    live: "#",
+    title: "CodeWithMe",
+    overview:
+      "Real time front end coding (html,css,js) application, includes authentification, creating a project, share the project with other contributers, downloading the project as an html file, real time contributing using socket.io, a dashboard to visulize thumbnails of your different projects. This project is not deployed yet as other features are yet to be implemented such as the search, real time notifications.",
+      tech: [
+        "React Js",
+        "TailwindCss",
+        "NodeJs",
+        "ExpressJs",
+        "Mongodb",
+        "Socket.io",
+      ],
+  },
+  {
     image: "./assets/project4/main.png",
     github: "https://github.com/AkliYalaoui/tic-tac-to-ai",
     live: "https://tic-tac-toe-ia.netlify.app/",
@@ -33,21 +49,21 @@ export const projects = [
       "Socket.io",
     ],
   },
-  {
-    image: "./assets/project3/main.png",
-    github: "https://github.com/AkliYalaoui/cryptocurreny-application",
-    live: "https://cryptocurreny.netlify.app/",
-    title: "My crypto",
-    overview:
-      "This app provides all the informations about all the cryptocurrencies including latest news, exchanges, details and much more.",
-    tech: ["React Js", "antDesign", "Redux", "chart.js", "RapidApi"],
-  },
-  {
-    image: "./assets/project2/main.png",
-    github: "https://github.com/AkliYalaoui/Abdelbassit-portfolio",
-    live: "https://abdelbassit.netlify.app/",
-    title: "Abdelbassit",
-    overview: "This is a portfolio for a flutter developer.",
-    tech: ["React Js", "TailwindCss", "typewriter-effect"],
-  },
+  // {
+  //   image: "./assets/project3/main.png",
+  //   github: "https://github.com/AkliYalaoui/cryptocurreny-application",
+  //   live: "https://cryptocurreny.netlify.app/",
+  //   title: "My crypto",
+  //   overview:
+  //     "This app provides all the informations about all the cryptocurrencies including latest news, exchanges, details and much more.",
+  //   tech: ["React Js", "antDesign", "Redux", "chart.js", "RapidApi"],
+  // },
+  // {
+  //   image: "./assets/project2/main.png",
+  //   github: "https://github.com/AkliYalaoui/Abdelbassit-portfolio",
+  //   live: "https://abdelbassit.netlify.app/",
+  //   title: "Abdelbassit",
+  //   overview: "This is a portfolio for a flutter developer.",
+  //   tech: ["React Js", "TailwindCss", "typewriter-effect"],
+  // },
 ];

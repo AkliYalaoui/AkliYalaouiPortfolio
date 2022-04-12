@@ -1,7 +1,7 @@
 import Title from "./Title";
+import ContactMe from "./ContactMe";
 import { FaHome } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
-import { MdComputer } from "react-icons/md";
 import styles from "./About.module.css";
 
 const About = () => {
@@ -13,14 +13,10 @@ const About = () => {
         <section className="mt-4 mb-8 pl-3">
           <div className={styles.hello}>Hello!</div>
           <p className={`${styles.paragraph} max-w-5xl m-auto`}>
-            I am <strong>Akli YALAOUI</strong>, I am a 21 years old, I am a self
-            taught full stack <strong>MERN developer</strong> . I am an
+            I am <strong>Akli YALAOUI</strong>, I am a <strong>mern stack developer</strong> and a <strong>data science</strong> student. I am an
             ambitious person with a fast learning curve, I like creativity and
-            solving complex problems both in web development and everyday life.
-            <br />
-            <br />I am a fourth year student at Higher National School of
-            Computer Science Algiers ( field of intelligent systems and data),
-            so a future data scientist
+            solving complex problems both in computer science and everyday life.
+            <br/>Currently, I am seeking for new opportunities, I am open to work as a mern stack developer or as a data science intern.
           </p>
         </section>
         <section className="flex flex-wrap justify-center items-center my-4 pl-3">
@@ -47,12 +43,14 @@ const About = () => {
                 </span>
               </li>
               <li className="flex items-start space-x-3">
-                <MdComputer color="#42d0fd" fontSize="22px" />
-                <span>Web development since</span>
-                <strong>May 2020</strong>.
+                <IoSchool color="#42d0fd" fontSize="22px" />
+                <span>
+                  Web development and data science
+                </span>
               </li>
             </ul>
           </article>
+          <ContactMe />
         </section>
         <Title title="about" end="true" />
       </div>

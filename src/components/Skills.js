@@ -5,19 +5,19 @@ import {
   FaReact,
   FaHtml5,
   FaNodeJs,
-  FaGithub,
-  FaGitAlt,
-  FaNpm,
+  FaLanguage,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiCss3,
   SiJavascript,
   SiMongodb,
-  SiMysql,
 } from "react-icons/si";
 import { GiBrain } from "react-icons/gi";
-import { AiOutlineTeam } from "react-icons/ai";
+import { DiPython } from "react-icons/di";
+import { IoStatsChart } from "react-icons/io5";
+import { MdComputer } from "react-icons/md";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 const Skills = () => {
   return (
@@ -76,33 +76,33 @@ const Skills = () => {
                 <SiMongodb />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Mysql</span>
-                <SiMysql />
+                <span>Sql</span>
+                <AiOutlineConsoleSql />
               </li>
             </ul>
           </Cardskill>
           <Cardskill>
-            <h4 className="text-center mb-4">Others</h4>
+            <h4 className="text-center mb-4">Data science</h4>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
-                <span>Git</span>
-                <FaGitAlt />
+                <span>Python</span>
+                <DiPython />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Github</span>
-                <FaGithub />
+                <span>R</span>
+                <IoStatsChart />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Npm</span>
-                <FaNpm />
+                <span>Machine Learning</span>
+                <MdComputer />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Problem solving</span>
+                <span>NLP</span>
+                <FaLanguage />
+              </li>
+              <li className="flex items-center space-x-2">
+                <span>Neural Networks</span>
                 <GiBrain />
-              </li>
-              <li className="flex items-center space-x-2">
-                <span>Team work</span>
-                <AiOutlineTeam />
               </li>
             </ul>
           </Cardskill>

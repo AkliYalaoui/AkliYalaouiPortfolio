@@ -5,9 +5,9 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Header = ({ mainColor, lang }) => {
   const bg = {
-    backgroundImage: "url('./assets/bg.jpg')",
+    backgroundImage: "url('./assets/bg.gif')",
     backgroundAttachment: "fixed",
-    backgroundPosition: "left",
+    backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   };
@@ -20,7 +20,7 @@ const Header = ({ mainColor, lang }) => {
           className="text-2xl sm:text-6xl font-semibold p-2 mt-28 animate-header"
           style={{ lineHeight: 1.4 }}
         >
-          Hello, I am a full stack mern developer and a computer science student
+          Hello, I am a data science student and a full stack mern developer
         </h1>
         <div className="space-x-4 my-16 flex justify-center items-center">
           <a
@@ -39,7 +39,7 @@ const Header = ({ mainColor, lang }) => {
             className="flex justify-center items-center space-x-2"
           >
             <FaPhone />
-            <span>0673347704</span>
+            <span>0783980830</span>
           </a>
         </div>
         <HireMe />

@@ -12,19 +12,7 @@ const ContactMe = () => {
     <>
       <div id="contactMe" className="p-10"></div>
       <section className="text-white py-4 px-10">
-        <Title title="contactme" />
         <div className="my-4">
-          <figure className="max-w-xs text-center mx-auto my-4">
-            <img
-              loading="lazy"
-              src="./assets/me.jpg"
-              alt="akli yalaoui"
-              className="object-contain h-full w-full animate-setup"
-            />
-            <figcaption className="p-2 border-b border-gray-600">
-              Summer Internship at <strong>ADSIL</strong> - Algiers
-            </figcaption>
-          </figure>
           <ul
             className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:justify-items-center lg:grid-cols-6 p-2 text-sm  shadow-md border border-gray-600"
             style={{ backgroundColor: "rgb(14, 14, 14)" }}
@@ -59,7 +47,7 @@ const ContactMe = () => {
                 className="flex items-center space-x-2"
               >
                 <FaPhone />
-                <span>0673347704</span>
+                <span>0783980830</span>
               </a>
             </li>
             <li>
@@ -97,7 +85,6 @@ const ContactMe = () => {
             </li>
           </ul>
         </div>
-        <Title title="contactme" end="true" />
       </section>
     </>
   );
