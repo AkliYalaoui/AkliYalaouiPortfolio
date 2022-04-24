@@ -1,5 +1,13 @@
 export const projects = [
   {
+    image: "./assets/project7/main.png",
+    github: "https://github.com/AkliYalaoui/flow-shop-scheduling",
+    live: "#",
+    title: "Flow shop scheduling problem",
+    overview: "Tabu search metaheuristics for the fsp implemented in python, The instance of the problem must be presented as in a csv format where each row represents the processing time of all jobs in a single machine. The user has the control to set the tabu tenure and the number of iteration respectively. The third input is optional, it is only used to plot the upper bound of the instance in the graph.",
+      tech: ["Python","Flask","D3.js"],
+  },
+  {
     image: "./assets/project6/main.png",
     github: "https://github.com/AkliYalaoui/code-with-me-ui",
     live: "#",
