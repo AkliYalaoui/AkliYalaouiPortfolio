@@ -72,6 +72,10 @@ const Skills = () => {
                 <FaNodeJs />
               </li>
               <li className="flex items-center space-x-2">
+                <span>Flask</span>
+                <DiPython />
+              </li>
+              <li className="flex items-center space-x-2">
                 <span>Mongodb</span>
                 <SiMongodb />
               </li>
