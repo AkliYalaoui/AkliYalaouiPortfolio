@@ -1,0 +1,12 @@
+.hello {
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 30px;
+    background-color: #3498db;
+    color: #171717;
+    width: fit-content;
+    font-weight: bold;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+  }

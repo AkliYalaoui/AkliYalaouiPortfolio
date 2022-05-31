@@ -11,7 +11,7 @@ const About = () => {
       <div className="py-4 px-10 text-white">
         <Title title="about" />
         <section className="mt-4 mb-8 pl-3">
-          <div className={styles.hello}>Hello!</div>
+          {/* <div className={styles.hello}>Hello!</div> */}
           <p className={`${styles.paragraph} max-w-5xl m-auto`}>
             I am <strong>Akli YALAOUI</strong>, I am a <strong>mern stack developer</strong> and a <strong>data science</strong> student. I am an
             ambitious person with a fast learning curve, I like creativity and

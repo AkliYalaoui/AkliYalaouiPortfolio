@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const [mainColor] = useState("#3ab795");
+  const [mainColor] = useState("#3498db");
 
   return (
     <>

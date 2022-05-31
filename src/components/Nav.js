@@ -4,7 +4,7 @@ import { FaTimes, FaHome } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { GiBrain, GiEnvelope } from "react-icons/gi";
 import { RiComputerLine } from "react-icons/ri";
-import Overlay from "./Overlay";
+// import Overlay from "./Overlay";
 import NavLi from "./NavLi";
 
 const Nav = ({ mainColor }) => {
@@ -14,12 +14,12 @@ const Nav = ({ mainColor }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const bg = {
-    backgroundColor: "transparent",
+  const bg ={
+    backgroundColor : "rgba(23, 23, 23, .4)",
   };
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow-md" style={bg}>
-      <Overlay />
+    <nav className="fixed top-0 left-0 w-full z-50 shadow-2xl" style={bg}>
+      {/* <Overlay /> */}
       <div className="max-w-5xl m-auto p-4 flex justify-between relative z-50">
         <h2 className="text-xl font-semibold" style={{ color: mainColor }}>
           <a href="#home">Akli YALAOUI</a>
