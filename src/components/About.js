@@ -13,10 +13,10 @@ const About = () => {
         <section className="mt-4 mb-8 pl-3">
           {/* <div className={styles.hello}>Hello!</div> */}
           <p className={`${styles.paragraph} max-w-5xl m-auto`}>
-            I am <strong>Akli YALAOUI</strong>, I am a <strong>mern stack developer</strong> and a <strong>data science</strong> student. I am an
+            I am <strong>Akli YALAOUI</strong>, I am a <strong>web developer</strong> and a <strong>data scientist</strong>. I am an
             ambitious person with a fast learning curve, I like creativity and
             solving complex problems both in computer science and everyday life.
-            <br/>Currently, I am seeking for new opportunities, I am open to work as a mern stack developer or as a data science intern.
+            <br/>Currently, I am seeking for new opportunities, I am open to work as a web developer freelancer or as a data scientist.
           </p>
         </section>
         <section className="flex flex-wrap justify-center items-center my-4 pl-2">
@@ -31,19 +31,19 @@ const About = () => {
           <article>
             <ul className="space-y-4 p-4 min-w-max">
               <li className="flex items-start space-x-3">
-                <FaHome color="#42d0fd" fontSize="22px" />
+                <FaHome color="#82589F" fontSize="22px" />
                 <span>
                   Lives in <strong>Bejaia, Algeria</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">
-                <IoSchool color="#42d0fd" fontSize="22px" />
+                <IoSchool color="#82589F" fontSize="22px" />
                 <span>
-                  Fourth year student at <strong>ESI ex INI</strong>.
+                  Final year student at <strong>ESI ex INI</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">
-                <IoSchool color="#42d0fd" fontSize="22px" />
+                <IoSchool color="#82589F" fontSize="22px" />
                 <span>
                   Web development and data science
                 </span>

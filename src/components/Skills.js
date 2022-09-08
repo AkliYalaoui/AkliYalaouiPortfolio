@@ -31,7 +31,7 @@ const Skills = () => {
             <ul className="space-y-3">
               <LangItem lang="English" icon="./assets/en.png" val="fluent" />
               <LangItem lang="French" icon="./assets/fr.png" val="fluent" />
-              <LangItem lang="Arabic" icon="./assets/dz.png" val="native" />
+              <LangItem lang="Arabic" icon="./assets/dz.png" val="bilingual" />
               <LangItem lang="Kabyle ⵣ" val="native" />
             </ul>
           </Cardskill>
@@ -39,11 +39,11 @@ const Skills = () => {
             <h4 className="text-center mb-4">Frontend stack</h4>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
-                <span>React Js</span>
+                <span>ReactJs/NextJs</span>
                 <FaReact />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Tailwindcss</span>
+                <span>TailwindCss/MaterialUi</span>
                 <SiTailwindcss />
               </li>
               <li className="flex items-center space-x-2">
@@ -55,7 +55,7 @@ const Skills = () => {
                 <SiCss3 />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Javascript</span>
+                <span>Javascript/TypeScript</span>
                 <SiJavascript />
               </li>
             </ul>

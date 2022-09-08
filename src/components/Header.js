@@ -6,12 +6,12 @@ import styles from "./Header.module.css";
 
 const Header = ({ mainColor, lang }) => {
   const bg = {
-    backgroundImage: "url('./assets/pexels-pixabay-256502.jpg')",
+    backgroundImage: "url('./assets/bg2.jpg')",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    minHeight : "70vh"
+    minHeight : "75vh"
   };
   return (
     <header id="home" className="relative text-white" style={bg}>
@@ -22,7 +22,7 @@ const Header = ({ mainColor, lang }) => {
           className="text-2xl sm:text-6xl font-semibold p-2 mt-28 animate-header text-center"
           style={{ lineHeight: 1.4 }}
         >
-          <div className={styles.hello}>Hello!</div> <p>I am a data science student and a full stack mern developer</p>
+          <div className={styles.hello}>Hello!</div> <p>I am a data scientist and a full stack web developer</p>
         </h1>
         {/* <div className="space-x-4 my-16 flex justify-center items-center">
           <a

@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { FaTimes, FaHome } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
-import { GiBrain, GiEnvelope } from "react-icons/gi";
-import { RiComputerLine } from "react-icons/ri";
+import { GiBrain,GiPapers } from "react-icons/gi";
+import { RiComputerLine ,RiOpenSourceFill} from "react-icons/ri";
 // import Overlay from "./Overlay";
 import NavLi from "./NavLi";
 
@@ -27,8 +27,8 @@ const Nav = ({ mainColor }) => {
         <div className="flex space-x-4">
           <div className="relative">
             <a
-              className="text-black px-2 py-1 font-semibold rounded"
-              style={{ backgroundColor: mainColor }}
+              className=" px-2 py-1 font-semibold rounded"
+              style={{ backgroundColor: mainColor,color:"#CAD3C8" }}
               href="./Akli's Resume.pdf"
               download="Akli's Resume.pdf"
               target="_blank"
@@ -64,13 +64,17 @@ const Nav = ({ mainColor }) => {
                   <GiBrain />
                   <span>Skills</span>
                 </NavLi>
+                <NavLi id="#Papers">
+                  <GiPapers />
+                  <span>Papers</span>
+                </NavLi>
+                <NavLi id="#OpenSource">
+                  <RiOpenSourceFill />
+                  <span>Open Source</span>
+                </NavLi>
                 <NavLi id="#Projects">
                   <RiComputerLine />
                   <span>Projects</span>
-                </NavLi>
-                <NavLi id="#contactMe">
-                  <GiEnvelope />
-                  <span>Contact me</span>
                 </NavLi>
               </ul>
             )}
