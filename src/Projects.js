@@ -1,5 +1,35 @@
 export const projects = [
   {
+    image: "./assets/project10/main.jpeg",
+    github: "#",
+    live: "https://frontend-juristedz.netlify.app/",
+    title: "Jurist-dz search engine",
+    overview:
+      "A search engine for text laws, it leverages NLP techniques in order to improve the quality of search results",
+    tech: [
+      "Flask",
+      "Supabase",
+      "Elastic Search",
+      "React Js",
+      "Docker",
+    ],
+  },
+  {
+    image: "./assets/project11/main.jpeg",
+    github: "#",
+    live: "#",
+    title: "Jurist-dz cms",
+    overview:
+      "A module for managing the content of the above search engine, A tool to completly customize the search engine",
+    tech: [
+      "Flask",
+      "Supabase",
+      "Elastic Search",
+      "React Js",
+      "Docker",
+    ],
+  },
+  {
     image: "./assets/project8/main.png",
     github: "#",
     live: "#",
@@ -33,15 +63,15 @@ export const projects = [
       "Tailwind Css",
     ],
   },
-  {
-    image: "./assets/project7/main.png",
-    github: "#",
-    live: "https://flow-shop-scheduling.netlify.app/",
-    title: "Flow shop scheduling problem",
-    overview:
-      "A Web platform for the fsp problem, it implement 8 different algorithms from branch and bound to heuristics, metaheuristics and hyperheuristics",
-    tech: ["Python", "Flask", "React Js", "Google charts", "Tailwind Css"],
-  },
+  // {
+  //   image: "./assets/project7/main.png",
+  //   github: "#",
+  //   live: "https://flow-shop-scheduling.netlify.app/",
+  //   title: "Flow shop scheduling problem",
+  //   overview:
+  //     "A Web platform for the fsp problem, it implement 8 different algorithms from branch and bound to heuristics, metaheuristics and hyperheuristics",
+  //   tech: ["Python", "Flask", "React Js", "Google charts", "Tailwind Css"],
+  // },
   {
     image: "./assets/project6/main.png",
     github: "https://github.com/AkliYalaoui/code-with-me-ui",
@@ -79,7 +109,7 @@ export const projects = [
   {
     image: "./assets/project1/main2.png",
     github: "https://github.com/AkliYalaoui/contacter-ui",
-    live: "https://contacter-app.netlify.app",
+    live: "#",
     title: "Contacter",
     overview:
       "An application that implements all the important features of nowdays chat applications including : authentification, send accept refuse friends requests, creating deleting a post,commenting and liking a post in real time,real time notifications,profile page and edit the profile, dark mode, search friends, real time chats and video calls, sending images videos and text and emojis.",

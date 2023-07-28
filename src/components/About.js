@@ -39,7 +39,7 @@ const About = () => {
               <li className="flex items-start space-x-3">
                 <IoSchool color="#82589F" fontSize="22px" />
                 <span>
-                  Final year student at <strong>ESI ex INI</strong>.
+                  Studied at <strong>ESI ex INI</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">
