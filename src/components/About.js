@@ -33,13 +33,19 @@ const About = () => {
               <li className="flex items-start space-x-3">
                 <FaHome color="#82589F" fontSize="22px" />
                 <span>
-                  Lives in <strong>Bejaia, Algeria</strong>.
+                  Lives in <strong>Paris, France</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">
                 <IoSchool color="#82589F" fontSize="22px" />
                 <span>
-                  Studied at <strong>ESI ex INI</strong>.
+                  Studied at <strong>ESI Algiers ex INI</strong>.
+                </span>
+              </li>
+              <li className="flex items-start space-x-3">
+                <IoSchool color="#82589F" fontSize="22px" />
+                <span>
+                  Currently following a Master's degree at <strong>Université Paris Cité</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">

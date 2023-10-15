@@ -41,13 +41,13 @@ const ContactMe = () => {
             </li>
             <li>
               <a
-                href="tel:0673347704"
+                href="tel:+33773794207"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1"
               >
                 <FaPhone />
-                <span>0783980830</span>
+                <span>+33 773794207</span>
               </a>
             </li>
             <li>

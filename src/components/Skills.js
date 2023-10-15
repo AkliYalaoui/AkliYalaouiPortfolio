@@ -12,6 +12,8 @@ import {
   SiCss3,
   SiJavascript,
   SiMongodb,
+  SiElasticsearch,
+  SiTypescript
 } from "react-icons/si";
 import { GiBrain } from "react-icons/gi";
 import { DiPython } from "react-icons/di";
@@ -33,6 +35,8 @@ const Skills = () => {
               <LangItem lang="French" icon="./assets/fr.png" val="fluent" />
               <LangItem lang="Arabic" icon="./assets/dz.png" val="bilingual" />
               <LangItem lang="Kabyle ⵣ" val="native" />
+              <LangItem lang="C language" val="fluent" />
+              <LangItem lang="PHP" val="fluent" />
             </ul>
           </Cardskill>
           <Cardskill>
@@ -55,8 +59,12 @@ const Skills = () => {
                 <SiCss3 />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Javascript/TypeScript</span>
+                <span>Javascript</span>
                 <SiJavascript />
+              </li>
+              <li className="flex items-center space-x-2">
+                <span>TypeScript</span>
+                <SiTypescript />
               </li>
             </ul>
           </Cardskill>
@@ -83,6 +91,10 @@ const Skills = () => {
                 <span>Sql</span>
                 <AiOutlineConsoleSql />
               </li>
+              <li className="flex items-center space-x-2">
+                <span>Elastic Search</span>
+                <SiElasticsearch />
+              </li>
             </ul>
           </Cardskill>
           <Cardskill>
@@ -105,8 +117,12 @@ const Skills = () => {
                 <FaLanguage />
               </li>
               <li className="flex items-center space-x-2">
-                <span>Neural Networks</span>
+                <span>Deep Learning</span>
                 <GiBrain />
+              </li>
+              <li className="flex items-center space-x-2">
+                <span>Data Analysis</span>
+                <IoStatsChart />
               </li>
             </ul>
           </Cardskill>
