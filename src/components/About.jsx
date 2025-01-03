@@ -19,7 +19,7 @@ const About = () => {
             <br/>Currently, I am seeking for new opportunities, I am open to work as a web developer freelancer or as a data scientist.
           </p>
         </section>
-        <section className="flex flex-wrap justify-center items-center my-4 pl-2">
+        <section className="flex flex-wrap justify-center items-center my-4">
           <div className={`w-56 h-40 ${styles.aboutImageContainer}`}>
             <img
               loading="lazy"
@@ -29,28 +29,28 @@ const About = () => {
             />
           </div>
           <article>
-            <ul className="space-y-4 p-4 min-w-max">
-              <li className="flex items-start space-x-3">
-                <FaHome color="#82589F" fontSize="22px" />
-                <span>
+            <ul className="space-y-4 p-3">
+              <li className="flex items-center space-x-3">
+                <FaHome color="#82589F" size="22" />
+                <span className="text-sm">
                   Lives in <strong>Paris, France</strong>.
                 </span>
               </li>
-              <li className="flex items-start space-x-3">
-                <IoSchool color="#82589F" fontSize="22px" />
-                <span>
+              <li className="flex items-center space-x-3">
+                <IoSchool color="#82589F" size="22" />
+                <span className="text-sm">
                   Graduated from <strong>ESI Algiers ex INI</strong>.
                 </span>
               </li>
-              <li className="flex items-start space-x-3">
-                <IoSchool color="#82589F" fontSize="22px" />
-                <span>
-                  Holding a Master's degree from <strong>Université Paris Cité</strong>.
+              <li className="flex items-center space-x-3">
+                <IoSchool color="#82589F" size="22" />
+                <span className="text-sm">
+                  Graduated from <strong>University of Paris</strong>.
                 </span>
               </li>
-              <li className="flex items-start space-x-3">
-                <IoSchool color="#82589F" fontSize="22px" />
-                <span>
+              <li className="flex items-center space-x-3">
+                <IoSchool color="#82589F" size="22" />
+                <span className="text-sm">
                   Web development and data science
                 </span>
               </li>
