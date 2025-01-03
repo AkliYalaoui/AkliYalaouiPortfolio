@@ -1,50 +1,50 @@
 .animate-header {
-  animation: header-animation 2s linear forwards;
-}
-
-.animate-setup {
-  animation: animate-setup 1s linear alternate infinite;
-}
-
-
-@keyframes animate-setup {
-  0% {
-    transform: skew(1deg);
+    animation: header-animation 2s linear forwards;
   }
-
-  100% {
-    transform: skew(-1deg);
+  
+  .animate-setup {
+    animation: animate-setup 1s linear alternate infinite;
   }
-}
-
-@keyframes header-animation {
-  0% {
-    opacity: .1;
-    transform: translateY(10px);
+  
+  
+  @keyframes animate-setup {
+    0% {
+      transform: skew(1deg);
+    }
+  
+    100% {
+      transform: skew(-1deg);
+    }
   }
-
-  20% {
-    opacity: .2;
-    transform: translateY(0);
+  
+  @keyframes header-animation {
+    0% {
+      opacity: .1;
+      transform: translateY(10px);
+    }
+  
+    20% {
+      opacity: .2;
+      transform: translateY(0);
+    }
+  
+    40% {
+      opacity: .4;
+      transform: translateY(10px);
+    }
+  
+    60% {
+      opacity: .6;
+      transform: translateY(0);
+    }
+  
+    80% {
+      opacity: .8;
+      transform: translateY(5px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-
-  40% {
-    opacity: .4;
-    transform: translateY(10px);
-  }
-
-  60% {
-    opacity: .6;
-    transform: translateY(0);
-  }
-
-  80% {
-    opacity: .8;
-    transform: translateY(5px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}

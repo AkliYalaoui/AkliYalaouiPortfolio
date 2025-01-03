@@ -1,5 +1,5 @@
 import Title from "./Title";
-import { papers } from "../Papers";
+import papers from "../papers.json";
 
 const Papers = ({ mainColor }) => {
   return (

@@ -11,7 +11,7 @@ const About = () => {
       <div className="py-4 px-10 text-white">
         <Title title="about" />
         <section className="mt-4 mb-8 pl-3">
-          {/* <div className={styles.hello}>Hello!</div> */}
+          <div className={styles.hello}>Hello!</div>
           <p className={`${styles.paragraph} max-w-5xl m-auto`}>
             I am <strong>Akli YALAOUI</strong>, I am a <strong>web developer</strong> and a <strong>data scientist</strong>. I am an
             ambitious person with a fast learning curve, I like creativity and
@@ -39,13 +39,13 @@ const About = () => {
               <li className="flex items-start space-x-3">
                 <IoSchool color="#82589F" fontSize="22px" />
                 <span>
-                  Studied at <strong>ESI Algiers ex INI</strong>.
+                  Graduated from <strong>ESI Algiers ex INI</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">
                 <IoSchool color="#82589F" fontSize="22px" />
                 <span>
-                  Currently following a Master's degree at <strong>Université Paris Cité</strong>.
+                  Holding a Master's degree from <strong>Université Paris Cité</strong>.
                 </span>
               </li>
               <li className="flex items-start space-x-3">

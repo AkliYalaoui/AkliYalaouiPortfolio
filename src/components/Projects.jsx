@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectItem from "./ProjectItem";
-import { projects } from "../Projects";
+import projects from "../projects.json";
 
 const Projects = ({ mainColor }) => {
   return (
