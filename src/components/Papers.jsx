@@ -5,13 +5,13 @@ const Papers = ({ mainColor }) => {
   return (
     <>
       <div id="Papers">
-        <div className="py-4 px-10 text-white mt-10">
+        <div className="py-10 px-4 text-white mt-10">
           <Title title="papers" />
           <section className="p-3 mt-10">
             {papers.map((paper) => (
               <article
                 key={paper.title}
-                className="max-w-4xl mx-auto mb-14 p-4"
+                className="max-w-5xl mx-auto mb-14 p-4"
                 style={{ backgroundColor: "rgb(10, 10, 10)" }}
               >
                 <h3 className="text-center font-semibold text-base sm:text-2xl">

@@ -3,7 +3,7 @@ const OpenSource = () => {
   return (
     <>
       <div id="OpenSource">
-        <div className="py-4 px-10 text-white mt-10">
+        <div className="py-10 px-4 text-white mt-10">
           <Title title="openSource" />
           <section className="p-3 mt-10 flex flex-wrap justify-center items-stretch">
             <article

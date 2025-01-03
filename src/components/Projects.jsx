@@ -5,8 +5,8 @@ import projects from "../projects.json";
 const Projects = ({ mainColor }) => {
   return (
     <>
-      <div id="Projects" className="p-10"></div>
-      <div className="py-4 px-10 text-white">
+      <div id="Projects"></div>
+      <div className="py-10 px-4 text-white">
         <Title title="projects" />
         <section className="p-3 mt-10">
           {projects.map((project, id) => (

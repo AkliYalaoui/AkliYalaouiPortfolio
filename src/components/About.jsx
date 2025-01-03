@@ -7,8 +7,8 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <>
-      <div id="about" className="p-10"></div>
-      <div className="py-4 px-10 text-white">
+      <div id="about"></div>
+      <div className="py-10 px-4 text-white">
         <Title title="about" />
         <section className="mt-4 mb-8 pl-3">
           <div className={styles.hello}>Hello!</div>

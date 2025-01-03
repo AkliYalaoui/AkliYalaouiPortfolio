@@ -18,8 +18,8 @@ import { AiOutlineConsoleSql } from "react-icons/ai";
 const Skills = () => {
   return (
     <>
-      <div id="Skills" className="p-10"></div>
-      <div className="py-4 px-10 text-white">
+      <div id="Skills"></div>
+      <div className="py-10 px-4 text-white">
         <Title title="skills" />
         <section className="p-3 flex flex-wrap justify-center items-stretch">
           <Cardskill>
